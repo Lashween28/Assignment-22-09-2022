@@ -12,8 +12,8 @@ Login To Deriv
     Wait Until Page Contains Element    //div[@class='btn-purchase__text_wrapper' and contains(.,'Rise')]    30
     Click Element   dt_login_button
     Wait Until Page Contains Element  //input[@type='email']  10
-    Input Text    //input[@type='email']    lashweenraj@besquare.com.my
-    Input Text    //input[@type='password']    Lashween28
+    Input Text    //input[@type='email']    Your email
+    Input Text    //input[@type='password']    Your pw
     Click Element  //button[@type='submit'] 
     Wait Until Page Contains Element   dt_core_account-info_acc-info    30
     Wait Until Page Does Not Contain Element    //*[@aria-label="Loading interface..."]    20

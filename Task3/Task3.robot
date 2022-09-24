@@ -5,7 +5,7 @@ Library  SeleniumLibrary
 ${duration}    4
 ${purchase_amount}    15.50
 ${purchase_action}    Lower
-${market_type}    AUD/JPY
+${market_type}    AUD/USD
 
 *** Test Cases ***
 Login to Deriv and Buy Lower Contract
